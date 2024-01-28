@@ -1,0 +1,4 @@
+This library contains a simple c++ wrapper to facilitate easy use of the esp32 UART system.
+It contains a single class usb_serial_interface which initializes the uart connection with a changeable baud rate,
+also containing some simple methods like reading a single byte from serial or an entire line ended with a EOL.
+A write_line and write log method is provided to provide output of the serial.
