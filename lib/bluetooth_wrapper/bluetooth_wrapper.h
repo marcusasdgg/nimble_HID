@@ -1,5 +1,4 @@
 #pragma once
-
 #include "usb_serial_interface.h"
 
 class bluetooth_wrapper : public usb_serial_interface {
@@ -10,3 +9,5 @@ public:
 private:
     bool send_HID_report();
 };
+
+void ble_host_task(void *param);
